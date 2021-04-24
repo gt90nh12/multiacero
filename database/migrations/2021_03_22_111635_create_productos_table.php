@@ -31,8 +31,8 @@ class CreateProductosTable extends Migration
             $table->double('precio_venta');
             $table->boolean('manejo_lote');
             $table->json('complementario');
-            $table->timestamps();
             $table->boolean('estado');
+            $table->timestamps();
         });
     }
 
